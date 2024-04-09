@@ -1,0 +1,14 @@
+@use "../../style/colors.scss" as colors;
+
+#contact {
+    position: relative;
+
+        #contact-list {
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            justify-content: center;
+            align-items: center;
+            row-gap: 5%;
+        }
+}

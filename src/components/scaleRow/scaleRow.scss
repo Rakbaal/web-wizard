@@ -1,0 +1,76 @@
+@media (0px <= width <= 470px) {
+    .scale {
+        min-width: 10rem;
+        width: 10rem;
+    }
+}
+
+@media (470px < width) {
+    .scale {
+        min-width: 11rem;
+        width: 11rem;
+    }
+}
+
+.topRow {
+    top: 10vh;
+}
+
+.bottomRow {
+    bottom: 10vh;
+    transform: rotate(185deg);
+}
+
+.door > .scaleRow {
+    left: 4.5vh;
+}
+
+.bounceUp-1 {
+    animation: bounceInUp;
+    animation-duration: 0.5s;
+}
+
+.bounceUp-2 {
+    animation: bounceInUp;
+    animation-duration: 1s;
+}
+
+.bounceUp-3 {
+    animation: bounceInUp;
+    animation-duration: 1.5s;
+}
+
+.bounceUp-4 {
+    animation: bounceInUp;
+    animation-duration: 2s;
+}
+
+.bounceUp-5 {
+    animation: bounceInUp;
+    animation-duration: 2.5s;
+}
+
+.bounceDown-1 {
+    animation: bounceInDown;
+    animation-duration: 0.5s;
+}
+
+.bounceDown-2 {
+    animation: bounceInDown;
+    animation-duration: 1s;
+}
+
+.bounceDown-3 {
+    animation: bounceInDown;
+    animation-duration: 1.5s;
+}
+
+.bounceDown-4 {
+    animation: bounceInDown;
+    animation-duration: 2s;
+}
+
+.bounceDown-5 {
+    animation: bounceInDown;
+    animation-duration: 2.5s;
+}

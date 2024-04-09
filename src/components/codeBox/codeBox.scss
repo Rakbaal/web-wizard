@@ -1,0 +1,33 @@
+@use "../../style/colors.scss" as colors; 
+
+@media(0px <= width <= 1024px) {
+    #codeBox {
+        grid-row-start: 0;
+        grid-column-start: 0;
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 5%;
+        
+        background-color: rgb(130 113 145);
+        max-height: 100%;
+        border-bottom: 8px solid white;
+        box-sizing: border-box;
+
+        font-weight: bold;
+    
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 1.8rem;
+            height: fit-content;
+        }
+
+        animation: slideInDown;
+        animation-duration: 1.5s;
+    }
+}

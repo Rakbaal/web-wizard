@@ -1,0 +1,120 @@
+@use "../../style/colors.scss" as colors;
+
+#door {
+    position: relative;
+    z-index: 10;
+}
+
+// small screens
+@media ( 0px <= width <= 470px) {
+    .topDoor {
+        background: linear-gradient(20deg, colors.$wwdark, black);
+        border-bottom: 8px solid colors.$wwlight;
+    
+        animation: openTopDoor;
+        animation-delay: 4s;
+        animation-duration: 1s;
+    }
+
+    .bottomDoor {
+        background: linear-gradient(200deg, colors.$wwdark, black );
+        border-top: 8px solid colors.$wwlight;
+    
+        animation: openBottomDoor;
+        animation-delay: 4s;
+        animation-duration: 1s;
+    }
+
+    .topDoor > p {
+        top: 80%;
+        padding-left: 10px;
+
+        animation: fadeInLeft;
+        animation-duration: 2s;
+    }
+
+    .bottomDoor > p {
+        bottom: 70%;
+        padding-right: 15px;
+        text-align: end;
+
+        animation: fadeInRight;
+        animation-duration: 2.5s;
+    }
+
+
+    #door > p {
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        font-size: 40px;
+    }
+}
+
+// medium
+@media ( 470px < width) {
+    .topDoor {
+        background: linear-gradient(20deg, colors.$wwdark, black);
+        border-bottom: 8px solid colors.$wwlight;
+    
+        animation: openTopDoor;
+        animation-delay: 4s;
+        animation-duration: 1s;
+    }
+
+    .bottomDoor {
+        background: linear-gradient(200deg, colors.$wwdark, black );
+        border-top: 8px solid colors.$wwlight;
+    
+        animation: openBottomDoor;
+        animation-delay: 4s;
+        animation-duration: 1s;
+    }
+
+    .topDoor > p {
+        top: 75%;
+        padding-left: 10px;
+
+        animation: fadeInLeft;
+        animation-duration: 2s;
+    }
+
+    .bottomDoor > p {
+        bottom: 65%;
+        padding-right: 15px;
+        text-align: end;
+
+        animation: fadeInRight;
+        animation-duration: 3s;
+    }
+
+    #door > p {
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        font-size: 47px;
+    }
+
+}
+
+
+
+
+
+@keyframes openTopDoor {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(0%, -110%);
+    }
+}
+
+@keyframes openBottomDoor {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(0%, 110%);
+    }
+}

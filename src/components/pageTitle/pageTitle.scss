@@ -1,0 +1,18 @@
+@use "../../style/colors.scss" as colors;
+
+#pageTitle {
+    height: 100%;
+    width: 100%;
+    background-color: colors.$wwpurple;
+    border-bottom: 8px solid white;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        
+        color: white;
+    }
+}

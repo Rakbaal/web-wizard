@@ -1,0 +1,57 @@
+@use "../../style/colors.scss" as colors;
+
+#menu-button {
+    position: relative;
+
+    .wrapper {
+        top: 15%;
+        position: absolute;
+        display: flex;
+        height: fit-content;
+        padding: 4%;
+        width: 60%;
+        box-sizing: content-box;
+        align-items: center;
+        column-gap: 6%;
+
+        p {
+            font-size: 1.5rem;
+            height: fit-content;
+            width: fit-content;
+        }
+
+        img {
+            height: 30px;
+            width: auto;
+        }
+    }
+
+    :hover {
+        background-color: colors.$hover-light;
+        border-color: colors.$wwdark-purple;
+        cursor: pointer;
+
+        p {
+            color: colors.$wwdark-purple;
+        }
+    }
+
+    .right {
+        align-self: flex-end;
+        justify-content: flex-start;
+        right: -6vw;
+
+        animation: bounceInRight;
+        animation-duration: 1.5s;
+    }
+
+    .left {
+        align-self: flex-start;
+        justify-content: flex-end;
+        left: -6vw;
+        padding-right: 4%;
+
+        animation: bounceInLeft;
+        animation-duration: 1.5s;
+    }
+}

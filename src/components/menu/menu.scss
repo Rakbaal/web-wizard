@@ -1,0 +1,9 @@
+#menu {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+    z-index: 1;
+}

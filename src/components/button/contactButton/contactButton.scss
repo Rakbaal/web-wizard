@@ -1,0 +1,42 @@
+@use "../../../style/colors.scss" as colors;
+
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .seekAttention {
+        animation: pulse;
+        animation-duration: 0.2s;
+    }
+
+    .right {
+        align-self: flex-end;
+        
+        animation: bounceInRight;
+        animation-duration: 0.7s;
+    }
+
+    .left {
+        animation: bounceInLeft;
+        animation-duration: 0.7s;
+    };
+
+    .wrapper {
+        position: relative;
+        padding: 3%;
+        height: fit-content;
+        width: fit-content;
+
+        img {
+            height: 20vw;
+        }
+
+        p {
+            font-size: 1.2rem;
+            height: fit-content;
+            width: fit-content;
+        }
+        
+    }
+}

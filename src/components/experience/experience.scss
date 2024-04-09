@@ -1,0 +1,46 @@
+@use "../../style/colors.scss" as colors;
+.experience-dropdown {
+    position: relative;
+    display: flex;
+    height: 13vh;
+
+    align-items: center;
+
+    .wrapper {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        padding: 2%;
+        align-items: center;
+
+        img {
+            height: 40px;
+            width: fit-content;
+        }
+
+        
+        .infoBox {
+            .label {
+                font-size: 1.1rem;
+            } 
+            
+            .duration {
+                display: flex;
+
+                p {
+                    font-weight: normal;
+                    font-size: 0.9rem;
+                    word-spacing: nowrap;
+                    width: fit-content;
+                    padding: 2px;
+                    
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+    }
+}
