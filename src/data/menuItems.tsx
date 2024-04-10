@@ -33,7 +33,7 @@ export const MenuItems: IMenuItem[] = [
         }
     },
     {
-        "label": "Ma Formation",
+        "label": "Mes Études",
         "route": "studies",
         "pictures": {
             light: degreeLight,

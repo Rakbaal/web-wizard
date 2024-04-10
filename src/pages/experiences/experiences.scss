@@ -1,6 +1,8 @@
 #experience-list {
+    padding-top: 5%;
     background-color: rgba($color: #000000, $alpha: 0);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    row-gap: 2vh;
 }

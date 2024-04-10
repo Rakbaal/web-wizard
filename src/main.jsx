@@ -10,6 +10,8 @@ import {
 } from "react-router-dom"
 import Contact from './pages/contact/contact.tsx'
 import Experiences from './pages/experiences/experiences.tsx'
+import Studies from './pages/studies/studies.tsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,11 +27,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/realisations",
-    element: <div>REALISATIONS</div>
+    element: <div>WIP</div>
   },
   {
     path: "/studies",
-    element: <div>ETUDES</div>
+    element: <Studies />
   }
 ]);
 

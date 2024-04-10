@@ -1,46 +1,154 @@
 @use "../../style/colors.scss" as colors;
+
+$animationDuration: 1s;
+
 .experience-dropdown {
-    position: relative;
     display: flex;
     height: 13vh;
-
+    width: fit-content;
     align-items: center;
+    height: fit-content;
+    padding: 2%;
 
-    .wrapper {
-        position: absolute;
+    .info-toggle {
+        visibility: hidden;
+    }
+
+    .dropdown-indicator {
+        height: 40px;
         width: fit-content;
-        height: fit-content;
-        display: flex;
-        padding: 2%;
-        align-items: center;
+    }
 
-        img {
-            height: 40px;
-            width: fit-content;
+
+    .infoBox {
+        width: 100%;
+
+        .label {
+            font-size: 1.1rem;
+            height: fit-content;
         }
 
-        
-        .infoBox {
-            .label {
-                font-size: 1.1rem;
-            } 
-            
-            .duration {
-                display: flex;
+        .duration {
+            display: flex;
+            height: fit-content;
+            width: fit-content;
 
-                p {
-                    font-weight: normal;
-                    font-size: 0.9rem;
-                    word-spacing: nowrap;
-                    width: fit-content;
-                    padding: 2px;
-                    
-                    span {
-                        font-weight: bold;
-                    }
+            p {
+                font-weight: normal;
+                font-size: 0.9rem;
+                word-spacing: nowrap;
+                width: fit-content;
+                padding: 2px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}
+
+.right {
+    align-self: flex-end;
+    animation: bounceInRight $animationDuration
+}
+
+.left {
+    align-self: flex-start;
+    animation: bounceInLeft $animationDuration
+}
+
+#selected {
+    justify-content: center;
+    max-height: fit-content;
+    width: 98%;
+    align-self: center;
+
+    .info-toggle {
+        margin-top: 2%;
+        visibility: visible;
+        height: fit-content;
+
+        p {
+            margin-top: 5%;
+            font-weight: normal;
+            font-size: 0.9rem;
+            max-width: 90%;
+
+            ul {
+                li {
+                    max-width: 90%;
+                }
+            }
+
+        }
+
+        .tasks {
+            ul>li:before {
+                content: "- ";
+            }
+        }
+
+        .tools {
+            ul {
+                li {}
+                list-style: inside;
+            }
+        }
+
+        .tools {
+            ul {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                column-gap: 2%;
+
+                li {
+                    width: 40%;
                 }
             }
         }
 
+        span {
+            font-weight: bold;
+            font-size: 1rem;
+        }
     }
+
+    .dropdown-indicator {
+        height: 40px;
+        transform: rotate(180deg);
+    }
+
+    .infoBox {
+        flex-shrink: 0;
+        width: fit-content;
+
+        .label {
+            font-size: 1.1rem;
+            height: fit-content;
+        }
+
+        .duration {
+            display: flex;
+            height: fit-content;
+            width: fit-content;
+
+            p {
+                font-weight: normal;
+                font-size: 0.9rem;
+                word-spacing: nowrap;
+                width: fit-content;
+                padding: 2px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+
 }

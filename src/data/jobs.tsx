@@ -7,39 +7,71 @@ export const jobs: IExperience[] = [
         "label": "Développeur full-stack",
         "place": "Overspeed SARL, à Rouen en France",
         "comment": `Suite au bon déroulement de mon stage et au constat de ma curiosité et mon sérieux,
-                    Overspeed m'engage comme développeur full-stack junior pour le développement d'un micro-CMS.
-                    Le développement de ce micro-CMS m'a mené à réaliser les tâches suivantes:
-                    - Design UX et UI d'interface utilisateur (Figma)
-                    - Architecture logicielle (Approche microservice)
-                    - Intégration d'interface utilisateur (React, Typescript)
-                    - Développement d'une API sécurisée (Golang, Gestion de DNS, JWT, Nginx, reverse proxies, déploiement de certificats)
-                    - Conception et évolution du modèle de données (Réalisation de MCD, MongoDB)
-                    - Déploiement d'infrastructures (Hyperviseur Proxmox, Docker, LXC)
-                    - Automatisation (Terraform, Ansible, Mise en place de CI-CD sous Gitlab)
-                    - Réalisation de cahier des charges
-                    - Gestion des tâches (Jira, Open Project)`,
+                    Overspeed m'engage comme développeur full-stack junior pour le développement d'un micro-CMS.`,
+        "tasks": [
+            "Design UX et UI",
+            "Architecture logicielle (microservices)",
+            "Intégration UI",
+            "Développement d'API sécurisée (Gestion de DNS, JWT, reverse proxies, déploiement de certificats)",
+            "Conception du modèle de données (MCD)",
+            "Déploiement d'infrastructures",
+            "Automatisation",
+            "Réalisation de cahier des charges",
+            "Gestion des tâches",
+        ],
+        "tools": [
+            "Typescript", "React", "Go",
+            "Nginx", "Proxmox", "Docker",
+            "MongoDB", "Terraform", "Ansible",
+            "Gitlab CI", "Jira", "Open Project",
+            "Git", "Gitlab", "LXC",
+            "HTTPS", "JWT", "Figma"
+        ],
         "type": "job"
     },
     {
         "start": "Janvier 2022",
         "finish": "Mars 2022",
         "label": "ERASMUS - Développeur back-end",
-        "comment": `Stage déterminant dans ma carrière de développeur, je suis pour la première
-                    fois confronté aux concepts d'API ainsi qu'à l'utilisation du javascript
-                    dans Node et React. Ma mission était de développer un outil de traduction
-                    automatique en s'interfaçant avec l'API Google Translate.`,
-        "place": "Overspeed SARL, à Rouen en France",
+        "comment": `Au cours de ces 3 mois en Estonie, ma mission était de créer une plateforme de journalisation 
+                    d'événements. Ces derniers étaient générés par un logiciel de détection de mouvements relié 
+                    aux différentes caméras des locaux de K-Space.`,
+        "place": "K-Space, à Tallinn en Estonie",
+        "tasks": [
+            "Traduction d'API de Python vers Javascript",
+            "Développement d'une API Node pour le stream de logs (SSE)",
+            "Mise en place d'un reverse Proxy",
+            "Déploiement du code par CI-CD"
+        ],
+        "tools": [
+            "Javascript", "React", "Node", 
+            "Nginx", "Docker", "MongoDB",
+            "Git", "Gitea", "CDN"
+        ],
         "type": "internship"
     },
     {
         "start": "Mai 2020",
         "finish": "Juin 2020",
         "label": "Développeur back-end",
-        "comment": `Stage déterminant dans ma carrière de développeur, je suis pour la première
-                    fois confronté aux concepts d'API ainsi qu'à l'utilisation du javascript
-                    dans Node et React. Ma mission était de développer un outil de traduction
+        "comment": `Stage déterminant dans ma carrière de développeur puisque c'est là que je suis pour la première
+                    fois confronté aux concepts d'API et à l'utilisation du javascript
+                    (via Node et React). Ma mission était de développer un outil de traduction
                     automatique en s'interfaçant avec l'API Google Translate.`,
         "place": "Overspeed SARL, à Rouen en France",
+        "tasks": [
+            `Développement d'une API Node`,
+            `Développement d'interface simple pour le choix de langue`,
+            `Interfaçage avec l'API Google Translate`,
+            `Rédaction de documentation sur la documentation Google Translate`
+        ],
+        "tools": [
+            "Git",
+            "Gitlab",
+            "React",
+            "Javascript",
+            "Node"
+        ],
         "type": "internship"
     },
     {
@@ -47,7 +79,7 @@ export const jobs: IExperience[] = [
         "finish": "2022",
         "label": "Opérateur logistique en entrepôt",
         "place": "LIDL, à Honguemarre-Guénouville en France",
-        "comment": `Job étudiant en parallèle de mon BTS SIO (documenté dans "Ma Formation").
+        "comment": `Job étudiant en parallèle de mon BTS SIO (documenté dans "Mes Études").
                     Dans le cadre de ce poste de manutention, je suis chargé de la préparation 
                     de palettes de produits à destinations des magasins LIDL de la région Normandie.`,
         "type": "job"
@@ -58,7 +90,7 @@ export const jobs: IExperience[] = [
         "label": "Agent d'accueil en accrobranche",
         "place": "Accrobranche de la base de loisirs de Jumièges, à Mesnil-sous-Jumièges en France",
         "comment": `Ma cinquième saison à la base de loisirs.
-                    Ayant à ce stade fait le tours de tous les pôles, je demande à être réintégré à
+                    Ayant à ce stade fait le tour de tous les pôles, je demande à être réintégré à
                     l'équipe accrobranche de la base, où je suis à nouveau chargé de l'accueil, l'équipement
                     la formation et la surveillance des usagers.`,
         "type": "job"

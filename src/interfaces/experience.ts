@@ -6,4 +6,6 @@ export default interface IExperience {
     place: string
     comment?: string
     type: "study" | "job" | "internship"
+    tasks?: string[]
+    tools?: string[]
 }
