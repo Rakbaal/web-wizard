@@ -24,7 +24,9 @@ Concernant ces mots, j'ai décidé de les faire apparaître dans le projet comme
 > Dynamisme: Plusieurs animations viennent ponctuer avec parcimonie le design pour attirer l'attention et ajouter une touche "moderne".  
 
 > Atypisme: Le côté atypique est celui me tenant le plus à coeur.  
-
-> Premièrement, j'ai voulu faire ressortir ce mot clé par l'inspiration principale dont je tire le design (le tatouage traditionnel japonais).
-  Mais ensuite, et surtout, c'est par les méthodes d'accès au site et que 
-N'ayant aucune formation en design, je suis assez fier du rendu
+Premièrement, j'ai voulu faire ressortir ce mot clé par l'inspiration principale dont je tire le design (le tatouage traditionnel japonais), qui n'est pas le genre de choix répandus pour des sites comme celui-ci.  
+Mais ensuite, et SURTOUT, c'est le projet lui-même que j'ai pensé de manière atypique!  
+L'idée de ce dernier est en effet de me créer une image, certes, mais surtout de marquer les esprits en déposant à la fois CV et lettre de motivation de manière élégante et innovante!  
+Je dépose ma carte, sur laquelle figure le QR code vers ce site. En le flashant, ils arrivent sur le menu des différentes sections de mon CV, et une boîte de texte apparait en haut.  
+En y entrant le code figurant sous le QR de ma carte de visite, la lettre de motivation pour cette entreprise est affichée!  
+Simple, élégant et atypique!
