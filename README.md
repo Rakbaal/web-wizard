@@ -30,3 +30,5 @@ L'idée de ce dernier est en effet de me créer une image, certes, mais surtout 
 Je dépose ma carte, sur laquelle figure le QR code vers ce site. En le flashant, ils arrivent sur le menu des différentes sections de mon CV, et une boîte de texte apparait en haut.  
 En y entrant le code figurant sous le QR de ma carte de visite, la lettre de motivation pour cette entreprise est affichée!  
 Simple, élégant et atypique!
+
+> Calme: Ce dernier est surtout restranscrit par la symbolique que j'ai choisie. Les écailles figurant sur le site et la carte font en effet référence aux carpes koi, symboles de calme.
