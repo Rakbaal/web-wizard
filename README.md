@@ -19,9 +19,12 @@ Pour ce projet, ces mots me sont parvenus de proches, à qui j'ai demandé de me
 En partant de là, j'ai trié pour récupérer les mots avec lesquels je raisonnais le plus, puis en ai fait la ligne directrice qui a mené à ce résultat !  
   
 Concernant ces mots, j'ai décidé de les faire apparaître dans le projet comme ci-dessous:
-> Sobriété: La carte de visite et le site sont simples et épurés, les éléments esthétiques sont codifiés et reconnaissables d'une page à l'autre pour ne pas perdre l'utilisateur.
-> Dynamisme: Plusieurs animations viennent ponctuer avec parcimonie le design pour attirer l'attention et ajouter une touche "moderne". 
+> Sobriété: La carte de visite et le site sont simples et épurés, les éléments esthétiques sont codifiés et reconnaissables d'une page à l'autre pour ne pas perdre l'utilisateur.  
+
+> Dynamisme: Plusieurs animations viennent ponctuer avec parcimonie le design pour attirer l'attention et ajouter une touche "moderne".  
+
 > Atypisme: Le côté atypique est celui me tenant le plus à coeur.  
+
 > Premièrement, j'ai voulu faire ressortir ce mot clé par l'inspiration principale dont je tire le design (le tatouage traditionnel japonais).
   Mais ensuite, et surtout, c'est par les méthodes d'accès au site et que 
 N'ayant aucune formation en design, je suis assez fier du rendu
