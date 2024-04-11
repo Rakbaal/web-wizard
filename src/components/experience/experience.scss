@@ -152,3 +152,12 @@ $animationDuration: 1s;
 
 
 }
+
+#selected:hover {
+    background-color: colors.$wwpurple;
+    border-color: white;
+
+    * {
+        color: white;
+    }
+}

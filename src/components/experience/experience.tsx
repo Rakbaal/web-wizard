@@ -39,8 +39,8 @@ export default function Experience({ experience, alignment, selected, setSelecte
     return (
         <div id={`${selected ? "selected" : ""}`} className={`experience-dropdown wrapper button ${alignment} ${animation}`}
             onAnimationEnd={endAnimation}
-            onMouseEnter={() => setCurrentPic(arrowDark)}
-            onMouseLeave={() => setCurrentPic(arrowLight)}
+            onMouseEnter={() => !selected && setCurrentPic(arrowDark)}
+            onMouseLeave={() => !selected && setCurrentPic(arrowLight)}
             onClick={() => selected ? setSelected("") : setSelected(index)}>
             <img className="dropdown-indicator" src={currentPic} />
             {realisation ? <RealisationContent selected={selected} realisation={realisation}/> : <ExperienceContent selected={selected} experience={experience} />}
