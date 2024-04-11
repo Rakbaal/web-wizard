@@ -1,0 +1,7 @@
+@use "../../style/colors.scss" as colors;
+a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}

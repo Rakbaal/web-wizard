@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react"
 import IExperience from "../../interfaces/experience"
 import arrowLight from "../../assets/dropdown-light.svg"
 import arrowDark from "../../assets/dropdown-dark.svg"
-import "./experience.scss"
-import HTMLReactParser from "html-react-parser/lib/index"
 import ExperienceContent from "../experienceContent/experienceContent"
+import { IRealisation } from "../../interfaces/realisation"
+import RealisationContent from "../realisationContent/realisationContent"
+import "./experience.scss"
 
 interface IProps {
     experience?: IExperience
@@ -12,7 +13,7 @@ interface IProps {
     selected?: boolean
     setSelected: React.Dispatch<React.SetStateAction<string>>
     index: string
-    realisation?:boolean
+    realisation?:IRealisation
 }
 
 export default function Experience({ experience, alignment, selected, setSelected, index, realisation }: IProps) {
@@ -42,9 +43,7 @@ export default function Experience({ experience, alignment, selected, setSelecte
             onMouseLeave={() => setCurrentPic(arrowLight)}
             onClick={() => selected ? setSelected("") : setSelected(index)}>
             <img className="dropdown-indicator" src={currentPic} />
-            {
-                realisation ? <ExperienceContent selected={selected} realisation={realisation}> : <ExperienceContent selected={selected} experience={experience} />
-            }
+            {realisation ? <RealisationContent selected={selected} realisation={realisation}/> : <ExperienceContent selected={selected} experience={experience} />}
         </div>
     )
 }

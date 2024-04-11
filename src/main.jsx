@@ -11,6 +11,7 @@ import {
 import Contact from './pages/contact/contact.tsx'
 import Experiences from './pages/experiences/experiences.tsx'
 import Studies from './pages/studies/studies.tsx'
+import Realisations from './pages/realisations/realisations.tsx'
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/realisations",
-    element: <div>WIP</div>
+    element: <Realisations />
   },
   {
     path: "/studies",
