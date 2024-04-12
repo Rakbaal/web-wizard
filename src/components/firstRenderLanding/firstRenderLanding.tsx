@@ -8,15 +8,15 @@ interface IProps {
 export default function FirstRenderLanding({setFirstRender, }: IProps) {
     sessionStorage.setItem("firstRender", "nope")
 
-    useEffect(() => {
-        const delay = setTimeout(() => {
-            setFirstRender(false)
-        }, 4700)
+    // useEffect(() => {
+    //     const delay = setTimeout(() => {
+    //         setFirstRender(false)
+    //     }, 4700)
 
-        return () => {
-            clearTimeout(delay)
-        }
-    }, [])
+    //     return () => {
+    //         clearTimeout(delay)
+    //     }
+    // }, [])
 
     return (
         <div className="firstRenderLanding absolute">

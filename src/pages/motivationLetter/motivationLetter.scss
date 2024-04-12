@@ -1,5 +1,81 @@
+@use "../../style/colors.scss" as colors;
+
 #motivationLetter {
     height: 100%;
     width: 100%;
-    background-color: white;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    * {
+        color: colors.$wwdark;
+        height: fit-content;
+    }
+    
+    #wrapper {
+        overflow-y: scroll;
+        padding: 10% 3%;
+        height: 99%;
+        width: 99%;
+
+        border-radius: 25px;
+        border: 2px solid colors.$wwdark;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+
+        #header {
+            position: relative;
+
+            margin-bottom: 8%;
+
+            img {
+                position: absolute;
+                height: 80%;
+                width: auto;
+
+                right: 0%;
+                top: -40%;
+            }
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #object {
+            text-decoration: underline;
+            margin-bottom: 5%;
+
+            span {
+                font-weight: bold;
+            }
+        }
+
+        #job-offer {
+            color: blue;
+        }
+
+        #introduction,
+        #paragraphe-1,
+        #paragraphe-2,
+        #closing,
+        #salutations {
+            margin-bottom: 3%;
+        }
+
+        #signature {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+    }
+
+
 }
