@@ -1,0 +1,29 @@
+#scaleFooter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.row {
+    position: absolute;
+    display: flex;
+    height: 100%;
+
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+#one {
+    left: -16%;
+    animation: slideInUp;
+    animation-duration: 0.8s;
+}
+
+#two {
+    top: 50%;
+    animation: slideInUp;
+    animation-duration: 0.5s;
+}

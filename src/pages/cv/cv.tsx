@@ -5,6 +5,7 @@ import ScaleSet from "../../components/scaleSet/scaleSet";
 import "./cv.scss";
 import "../../style/layout.scss"
 import "animate.css"
+import ScaleFooter from "../../components/scaleFooter/scaleFooter";
 
 export default function CV() {
     return (
@@ -23,7 +24,9 @@ export default function CV() {
                 <Menu />
             </div>
 
-            <ScaleSet rowLength={15} rowNumber={2} bottom index={1} />
+            <div id="footer">
+                <ScaleFooter />
+            </div>
         </div>
     )
 }

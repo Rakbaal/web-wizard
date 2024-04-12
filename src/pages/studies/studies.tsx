@@ -5,6 +5,7 @@ import ScaleSet from "../../components/scaleSet/scaleSet";
 import "../../style/layout.scss";
 import Experience from "../../components/experience/experience";
 import { studies } from "../../data/studies";
+import ScaleFooter from "../../components/scaleFooter/scaleFooter";
 
 export default function Studies() {   
     const [selected, setSelected] = useState<string>("") 
@@ -20,7 +21,7 @@ export default function Studies() {
                 </div>
             </div>
             <div id="footer">
-                <ScaleSet rowLength={15} rowNumber={2} bottom index={1} />
+                <ScaleFooter />
             </div>
         </div>
     )

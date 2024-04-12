@@ -12,6 +12,7 @@ import Contact from './pages/contact/contact.tsx'
 import Experiences from './pages/experiences/experiences.tsx'
 import Studies from './pages/studies/studies.tsx'
 import Realisations from './pages/realisations/realisations.tsx'
+import MotivationLetter from "./pages/motivationLetter/motivationLetter.tsx"
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "/studies",
     element: <Studies />
+  },
+  {
+    path: "/motivation-letter/:code",
+    element: <MotivationLetter />
   }
 ]);
 

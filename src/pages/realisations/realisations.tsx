@@ -5,6 +5,7 @@ import ScaleSet from "../../components/scaleSet/scaleSet";
 import "../../style/layout.scss";
 import Experience from "../../components/experience/experience";
 import { realisations } from "../../data/realisations";
+import ScaleFooter from "../../components/scaleFooter/scaleFooter";
 
 export default function Realisations() {   
     const [selected, setSelected] = useState<string>("") 
@@ -20,7 +21,7 @@ export default function Realisations() {
                 </div>
             </div>
             <div id="footer">
-                <ScaleSet rowLength={15} rowNumber={2} bottom index={1} />
+                <ScaleFooter />
             </div>
         </div>
     )

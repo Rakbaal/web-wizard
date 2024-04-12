@@ -7,13 +7,10 @@ import PageTitle from "../../components/pageTitle/pageTitle";
 import ContactButton from "../../components/button/contactButton/contactButton";
 import { contactItems } from "../../data/contactItems";
 import { isPair } from "../../components/menu/menu";
+import ScaleFooter from "../../components/scaleFooter/scaleFooter";
 export default function Contact() {
     
     const items = contactItems.map((item, index) => <ContactButton key={index} label={item.label} copy={item.copy ? item.copy : ""} pictures={item.pictures} dest={item.dest} right={isPair(index)} />)
-
-    useEffect(() => {
-        console.log([...items])
-    }, [])
 
     return (
         <div id="contact" className="layout">
@@ -26,7 +23,7 @@ export default function Contact() {
                 </div>
             </div>
             <div id="footer">
-                <ScaleSet rowLength={15} rowNumber={2} bottom index={1} />
+                <ScaleFooter />
             </div>
         </div>
     )

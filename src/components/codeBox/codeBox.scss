@@ -1,6 +1,5 @@
 @use "../../style/colors.scss" as colors; 
 
-@media(0px <= width <= 1024px) {
     #codeBox {
         grid-row-start: 0;
         grid-column-start: 0;
@@ -30,4 +29,3 @@
         animation: slideInDown;
         animation-duration: 1.5s;
     }
-}

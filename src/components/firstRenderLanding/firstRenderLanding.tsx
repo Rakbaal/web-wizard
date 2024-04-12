@@ -3,16 +3,14 @@ import Door from "../door/door"
 
 interface IProps {
     setFirstRender: Dispatch<SetStateAction<boolean>>
-    setFocus: Dispatch<SetStateAction<boolean>>
 }
 
-export default function FirstRenderLanding({setFirstRender, setFocus}: IProps) {
+export default function FirstRenderLanding({setFirstRender, }: IProps) {
     sessionStorage.setItem("firstRender", "nope")
 
     useEffect(() => {
         const delay = setTimeout(() => {
             setFirstRender(false)
-            setFocus(true)
         }, 4700)
 
         return () => {
@@ -22,7 +20,7 @@ export default function FirstRenderLanding({setFirstRender, setFocus}: IProps) {
 
     return (
         <div className="firstRenderLanding absolute">
-            <div className="relative flex flex-col">
+            <div className="door-container">
                 <Door />
                 <Door bottom />
             </div>

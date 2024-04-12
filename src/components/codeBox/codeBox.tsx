@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import CodeInput from "../codeInput/codeInput"
 import CvSections from "../cvSections/cvSections"
 import "./codeBox.scss"

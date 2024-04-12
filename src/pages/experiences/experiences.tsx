@@ -6,6 +6,7 @@ import "../../style/layout.scss";
 import "./experiences.scss";
 import Experience from "../../components/experience/experience";
 import { jobs } from "../../data/jobs";
+import ScaleFooter from "../../components/scaleFooter/scaleFooter";
 
 export default function Experiences() {   
     const [selected, setSelected] = useState<string>("") 
@@ -21,7 +22,7 @@ export default function Experiences() {
                 </div>
             </div>
             <div id="footer">
-                <ScaleSet rowLength={15} rowNumber={2} bottom index={1} />
+                <ScaleFooter />
             </div>
         </div>
     )

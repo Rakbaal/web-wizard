@@ -17,4 +17,9 @@ export const realisations:IRealisation[] = [
                     à la <b>configuration du DNS</b>, puis au <b>déploiement des certificats</b> afin d'autoriser le HTTPS pour ce site.
                     <br/>Enfin, j'ai intégré ma maquette pour donner le présent résultat!`
     },
+    {
+        "label": "WIP - Jeu de fléchettes",
+        "comment": `Je vis en colocation, et les jours ou on s'ennuie... On joue aux fléchettes! Mais pour le moment, nous comptons nous-même
+                    les points sur des feuilles en papier. L'idéal serait évidemment pour nous d'avoir une application pour le calcul automatique des points!`
+    }
 ]

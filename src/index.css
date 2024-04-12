@@ -18,16 +18,29 @@
     height: 100%;
     text-decoration: none;
     text-transform: none;
-    user-select: none;
+    user-select: none;    
 }
+
 
 #root,
 html,
-body {
+body {  
   width: 100vw;
   height: 100vh;
   color: black;
   overflow: hidden;
+}
+
+@media (width > 414px) or (height > 896px) {
+  #root, html, body {
+    width: 414px;
+    height: 896px;
+  }
+
+  #root {
+    box-sizing: border-box;
+    border: 2px solid white
+  }
 }
 
 html {
