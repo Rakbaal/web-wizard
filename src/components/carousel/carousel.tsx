@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function DropDown() {
+export default function Carousel() {
+
     return (
-        <div className="dropDown">
+        <div id="carousel">
             
         </div>
     )

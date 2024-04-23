@@ -6,7 +6,7 @@ export const studies: IExperience[] = [
         "finish": "2023",
         "label": "Bachelor CDA",
         "labelAnnotations": [
-            "Concepteur Développeur d'Applications"
+            "CDA : Concepteur/Développeur d'Applications"
         ],
         "place": "Ecole CESI de Rouen, à Saint-Etienne-du-Rouvray en France",
         "comment": `Effectuées en alternance à un rythme de 3 semaines en entreprise 
@@ -20,9 +20,9 @@ export const studies: IExperience[] = [
         "finish": "2022",
         "label": "BTS SIO option SLAM",
         "labelAnnotations": [
-            "Brevet de Technicien Supérieur",
-            "Service Informatique aux Organisations",
-            "Solutions Logicielles et Applications Métier"
+            "BTS : Brevet de Technicien Supérieur",
+            "SIO : Service Informatique aux Organisations",
+            "SLAM : Solutions Logicielles et Applications Métier"
         ],
         "place": "Lycée La Chataigneraie, à Mesnil-Esnard en France",
         "comment": `Première étape de ma réorientation vers le développement 
@@ -50,6 +50,9 @@ export const studies: IExperience[] = [
         "start": "2017",
         "finish": "2020",
         "label": "Licence LEA",
+        "labelAnnotations": [
+            "LEA : Langues Etrangères Appliquées"
+        ],
         "place": "Université de Rouen, à Mont-Saint-Aignan en France",
         "comment": `Première expérience dans le monde des études supérieures.
         <br/>J'y développe mon niveau en langues étrangères et découvre

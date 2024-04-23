@@ -3,11 +3,23 @@
 #motivationLetter {
     height: 100%;
     width: 100%;
+    position: relative;
 
     
     display: flex;
     justify-content: center;
     align-items: center;
+
+    #close {
+        position: absolute;
+        width: 12%;
+        left: 2%;
+        top: 2%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
     
     * {
         color: colors.$wwdark;
@@ -16,7 +28,10 @@
     
     #wrapper {
         overflow-y: scroll;
-        padding: 10% 3%;
+        padding-top: 10%;
+        padding-bottom: 18%;
+        padding-left:  3%;
+        padding-right:  3%;
         height: 99%;
         width: 99%;
 
@@ -35,8 +50,7 @@
 
             img {
                 position: absolute;
-                height: 80%;
-                width: auto;
+                width: 18%;
 
                 right: 0%;
                 top: -40%;
@@ -77,5 +91,5 @@
 
     }
 
-
+    
 }

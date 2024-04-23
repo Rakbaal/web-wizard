@@ -6,6 +6,8 @@ import degreeDark from "../assets/degree-dark.svg"
 import degreeLight from "../assets/degree-light.svg"
 import codeDark from "../assets/code-dark.svg"
 import codeLight from "../assets/code-light.svg"
+import aboutLight from "../assets/about-light.svg"
+import aboutDark from "../assets/about-dark.svg"
 interface IMenuItem {
     label: string
     pictures: {
@@ -16,6 +18,14 @@ interface IMenuItem {
 }
 
 export const MenuItems: IMenuItem[] = [
+    // {
+    //     "label": "À propos de moi",
+    //     "pictures": {
+    //         light: aboutLight,
+    //         dark: aboutDark
+    //     },
+    //     "route": "/about"
+    // },
     {
         "label": "Me contacter",
         "route": "/contact",

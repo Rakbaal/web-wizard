@@ -1,7 +1,7 @@
 export interface IMotivationLetter {
     code:string
     company:string
-    firstParagraph:string
+    firstParagraph?:string
     secondParagraph?:string
     picture: string
     job: string

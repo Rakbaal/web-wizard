@@ -11,6 +11,9 @@ export default function ExperienceContent({experience, selected}: IProps) {
     return (
         <div className="infoBox">
             <p className="label">{experience?.label}</p>
+            {experience?.labelAnnotations?.map((annotation) => {
+                return <p className="sublabel">({annotation})</p>
+            })}
             <div className="duration">
                 <p><span>Début:</span> {experience?.start}</p>
                 <p><span>Fin:</span> {experience?.finish}</p>
