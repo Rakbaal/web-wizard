@@ -39,6 +39,32 @@ export const realisations:IRealisation[] = [
         <br/>Ce projet a nécessité de moi un panel complet de compétences, allant du <b>design UX/UI</b> au <b>développement et à la sécurisation d'API</b>,
         en passant par le <b>déploiement d'infrastructures</b>, la <b>conception de modèles de données</b>, la <b>mise en place de CI-CD</b>, ou encore le <b>développement
         d'outils d'intégration</b> par exemple.
-        </br>Malheureuseument, l'ensemble de ce code étant la propriété de l'entreprise Overspeed, je ne dispose plus de ce dernier.`
+        </br>Malheureuseument, l'ensemble de ce code étant la propriété de l'entreprise Overspeed, je ne dispose plus de ce dernier.<br/>`
     },
+    {
+        "label": "Développements client",
+        "tools": [
+            "Typescript", "React",
+            "Gitlab", "Nginx", "Gandi"
+        ],
+        "comment": `Lors de mon année et demi chez Overspeed, en parallèle du développement de Skald'Aura, il m'était régulièrement demandé de
+        développer des sites à format fixes pour nos clients. Ces sites n'avaient pas pour but d'être visualisés en ligne, mais servaient généralement
+        à offrir une expérience interactive alternative aux kakemonos ou autres panneaux d'information au sein des établissements. 
+        Les clients mandataires de ces sites disposaient en effet de "totems" aux dimensions mobile grand format, vendus par Overspeed. 
+        De par leur nature fonctionnelle, et la présentce de données personnelles dont l'accès devait être restreint, 
+        ces sites sont protégés par une page d'authentification (fonctionnalité de Skald'Aura) afin de limiter le plus strictement possible la visualisation 
+        des données personnelles de ces sites.<br/>
+        <a href="https://crjs-petit-couronne.spin-io.fr">Exemple de page d'authentification</a><br/>
+        De ce fait, ces sites sont strictement privés et ne peuvent être consultés par autrui.`,
+    },
+    {
+        "label": "Installation de serveur web",
+        "comment": `Ce site est actuellement hébergé sur un raspberry installé, paramétré
+        en tant que serveur web Nginx et sécurisé par mes soins, chez moi.`,
+        "tools": [
+            "Nginx", "Godaddy", "Certbot",
+            "Ubuntu Server", "SSH", "UFW",
+            "DNS"
+        ]
+    }
 ]

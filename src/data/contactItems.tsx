@@ -35,7 +35,7 @@ export const contactItems: IContactItem[] = [
         copy: "leocarp76@outlook.fr"
     },
     {
-        label: "+336.19.38.54.26",
+        label: "+336.19.38.54.26<br/>",
         pictures: {
             dark: phoneDark,
             light: phoneLight

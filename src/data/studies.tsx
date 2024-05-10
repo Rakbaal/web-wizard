@@ -2,20 +2,6 @@ import IExperience from "../interfaces/experience"
 
 export const studies: IExperience[] = [
     {
-        "start": "2022",
-        "finish": "2023",
-        "label": "Bachelor CDA",
-        "labelAnnotations": [
-            "CDA : Concepteur/Développeur d'Applications"
-        ],
-        "place": "Ecole CESI de Rouen, à Saint-Etienne-du-Rouvray en France",
-        "comment": `Effectuées en alternance à un rythme de 3 semaines en entreprise 
-        pour 1 semaine en cours, j'en tire principalement des <b>compétences en gestion de projet</b>.
-        <br/>Je retiens de cette année que <b>la majorité de l'évolution de mes compétences
-        techniques est dûe aux 75% de mon temps passé en entreprise</b> (documenté dans "Mes&nbsp;Expériences").`,
-        "type": "study"
-    },
-    {
         "start": "2020",
         "finish": "2022",
         "label": "BTS SIO option SLAM",

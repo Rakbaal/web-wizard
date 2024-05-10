@@ -7,7 +7,8 @@ export const jobs: IExperience[] = [
         "label": "Développeur full-stack",
         "place": "Overspeed SARL, à Rouen en France",
         "comment": `Suite au bon déroulement de mon stage et au constat de ma curiosité et mon sérieux,
-                    Overspeed m'engage comme développeur full-stack junior pour le développement d'un micro-CMS.`,
+                    Overspeed m'engage comme développeur full-stack junior pour le développement d'un micro-CMS headless 
+                    (Skald'Aura, documenté dans "Mes réalisations").`,
         "tasks": [
             "Design UX et UI",
             "Architecture logicielle (microservices)",
@@ -18,6 +19,7 @@ export const jobs: IExperience[] = [
             "Automatisation",
             "Réalisation de cahier des charges",
             "Gestion des tâches",
+            "CI-CD"
         ],
         "tools": [
             "Typescript", "React", "Go",
@@ -25,7 +27,8 @@ export const jobs: IExperience[] = [
             "MongoDB", "Terraform", "Ansible",
             "Gitlab CI", "Jira", "Open Project",
             "Git", "Gitlab", "LXC",
-            "HTTPS", "JWT", "Figma"
+            "HTTPS", "JWT", "Figma",
+            "OpenProject", "Jira"
         ],
         "type": "job"
     },

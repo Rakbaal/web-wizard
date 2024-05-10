@@ -8,4 +8,5 @@ export interface IMotivationLetter {
     address: string
     city: string
     offer?: string
+    alt?:string
 }
