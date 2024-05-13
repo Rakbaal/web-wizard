@@ -54,56 +54,51 @@ export const motivationLetters: IMotivationLetter[] = [
         "company": "AceProject",
         "city": "Québec City, Quebec G2K 0H1",
         "address": "1280 Bd Lebourgneuf #400",
-        "job": "Développeur Web",
-        "picture": "aceproject.png"
+        "job": "Développeur Full Stack - Devops",
+        "picture": "aceproject.png",
+        "secondParagraph": `Je suis bien conscient qu'aucun poste n'est actuellement ouvert, mais je n'ai pu m'empêcher
+        de remarquer que votre équipe était relativement petite, et de ce fait je pense pouvoir apporter
+        et déployer mes compétences (notamment DevOps par exemple) au profit de votre équipe pour la soutenir dans ses tâches.`
     },
     {
         "code": "6855",
         "company": "Advisia",
-        "city": "",
-        "address": "",
+        "city": "Québec City, Quebec G1P 2J7",
+        "address": "4535 Wilfrid-Hamel Blvd #100",
         "job": "Développeur Web",
-        "picture": ""
+        "picture": "advisia.png"
     },
     {
         "code": "9965",
         "company": "DashThis",
-        "city": "",
-        "address": "",
+        "city": "Québec City, Quebec G2K 0M6",
+        "address": "1255 Bd Lebourgneuf #550",
         "job": "Développeur Web",
-        "picture": ""
-    },
-    {
-        "code": "6855",
-        "company": "Advisia",
-        "city": "",
-        "address": "",
-        "job": "Développeur Web",
-        "picture": ""
+        "picture": "dashthis.png"
     },
     {
         "code": "6955",
         "company": "Decide4Action",
-        "city": "",
-        "address": "",
-        "job": "",
-        "picture": ""
+        "city": "Québec, QC G1P 4S3",
+        "address": "1300 Bd du Parc Technologique",
+        "job": "Développeur Full Stack - Devops",
+        "picture": "decide4action.png"
     },
     {
         "code": "6855",
         "company": "Toxyscan",
-        "city": "",
-        "address": "",
-        "job": "Développeur Web",
-        "picture": ""
+        "city": "Québec, QC G2E 5B7",
+        "address": "1400 Ave Saint-Jean-Baptiste Bureau 220",
+        "job": "Développeur Logiciel - Devops",
+        "picture": "toxyscan.jpg"
     },
     {
         "code": "6485",
         "company": "MYR Solution",
-        "city": "",
-        "address": "",
-        "job": "Développeur Web",
-        "picture": ""
+        "city": "Québec City, Quebec G1P 2J9",
+        "address": "4740 Wilfrid-Hamel Blvd #120",
+        "job": "Développeur Full Stack - Devops",
+        "picture": "myr.png"
     },
     {
         "code": "8246",
