@@ -6,6 +6,106 @@ export const motivationLetters: IMotivationLetter[] = [
     //      InfiniGods https://www.linkedin.com/jobs/view/3916715239
     //      Precisely https://www.linkedin.com/jobs/view/3917000992
     {
+        // https://g.co/kgs/d5KwPy8
+        "code": "",
+        "company": "Ezo",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": "",
+        "offer": "https://g.co/kgs/vrGbGX8"
+    },
+    {
+        "code": "6688",
+        "company": "Momentum Tech",
+        "city": "Québec City, Quebec G2K 2H6",
+        "address": "5600 Bd des Galeries #410",
+        "job": "Informaticien",
+        "picture": "momentum.png",
+        "alt": `Madame, Monsieur,<br/>
+        Je rédige cette lettre afin de vous faire part de mon intérêt pour Momentum Tech.<br/>
+        Etant actuellement à la recherche d'un poste dans le milieu de l'informatique, j'ai fini par
+        trouver votre entreprise, qui présente <a href="https://momentum-tech.ca/fr/carriere/quebec">plusieurs postes dans ce milieu</a> attisant ma curiosité.
+        (plus spécifiquement, Architecte technologique, DevOps, Analyste-Programmeur, Architecte intégrateur, Administrateur de systèmes LINUX,
+        ainsi qu'Administrateur de bases de données).<br/><br/>
+        Je pense en effet que, de par la multiplicité des compétences acquises au fil de mes études et expériences professionnelles, je 
+        serais en mesure de combler plusieurs de ces postes au sein de votre équipe en fonction de vos besoins prioritaires, et serais
+        ravi de m'entretenir avec vous au sujet de ces derniers.<br/> 
+        Fort d'une expérience complète mêlant modélisation de données, développement web front et back end, design d'interfaces, architecture logicielle,
+        déploiement d'infrastructures, ou encore la mise en place de CI/CD (le tout dans un environnement Linux), je pense être un élément d'une rare, 
+        mais précieuse, polyvalence.<br/></br>
+        Ajoutons à cela une insatiable curiosité, un calme et une écoute à toute épreuve, et une grande rigueur, et vous nous obtenons alors le profil
+        idéal pour un poste nécessitant une flexibilité et un travail en équipe (comme pour les postes listés ci-dessus).<br/></br>
+        Je suis convaincu que mon profil correspond parfaitement à vos besoins et je suis impatient de vous le prouver en mettant mes compétences au service de votre équipe.<br/><br/>
+        Je vous remercie du temps attribué à l'étude de mon profil, et suis impatient de pouvoir m'entretenir avec vous pour vous prouver ma détermination,<br/>
+        Bien cordialement<br/><br/>
+        `
+    },
+    {
+        "code": "3381",
+        "company": "Evolia",
+        "city": "Québec City, Quebec G2K 2H6",
+        "address": "5600 Bd des Galeries bureau 535",
+        "job": "Développeur Web",
+        "picture": "evolia.png",
+    },
+    {
+        "code": "8857",
+        "company": "AceProject",
+        "city": "Québec City, Quebec G2K 0H1",
+        "address": "1280 Bd Lebourgneuf #400",
+        "job": "Développeur Web",
+        "picture": "aceproject.png"
+    },
+    {
+        "code": "6855",
+        "company": "Advisia",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": ""
+    },
+    {
+        "code": "9965",
+        "company": "DashThis",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": ""
+    },
+    {
+        "code": "6855",
+        "company": "Advisia",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": ""
+    },
+    {
+        "code": "6955",
+        "company": "Decide4Action",
+        "city": "",
+        "address": "",
+        "job": "",
+        "picture": ""
+    },
+    {
+        "code": "6855",
+        "company": "Toxyscan",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": ""
+    },
+    {
+        "code": "6485",
+        "company": "MYR Solution",
+        "city": "",
+        "address": "",
+        "job": "Développeur Web",
+        "picture": ""
+    },
+    {
         "code": "8246",
         "company": "BZ Inc.",
         "city": "Quebec G1M 1N9, Canada",
