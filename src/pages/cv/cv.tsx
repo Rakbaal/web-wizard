@@ -20,7 +20,7 @@ export default function CV() {
                     <h2>Développeur Web Full Stack</h2>
                     <div className="separator"/>
                     <div id="classic-cv" className="button">
-                        <a href="https://drive.google.com/file/d/1nwVENoTvsqQf3eDjRX8EC8qrAFdqwB18/view?usp=sharing" target="__blank">
+                        <a href="https://drive.google.com/file/d/19wr7ZnQjtFAGzoCto5RO86t0QKa6YrWU/view?usp=sharing" target="__blank">
                             <img src={cv} />
                         </a>
                     </div>

@@ -7,13 +7,27 @@ export const motivationLetters: IMotivationLetter[] = [
     //      Precisely https://www.linkedin.com/jobs/view/3917000992
     {
         // https://g.co/kgs/d5KwPy8
-        "code": "",
-        "company": "Ezo",
-        "city": "",
-        "address": "",
-        "job": "Développeur Web",
-        "picture": "",
-        "offer": "https://g.co/kgs/vrGbGX8"
+        "code": "9455",
+        "company": "Gentec",
+        "city": "Québec, QC G2E 5N7",
+        "address": "445 Ave Saint-Jean-Baptiste #160",
+        "job": "Développeur Web / Technicien informatique / autre",
+        "picture": "gentec.svg",
+        "firstParagraph": `Fort d'une expérience diversifiée mêlant aussi bien les différentes tâches d'un développeur
+        full stack (design, développement front/back end, déploiement d'infrastructures, sécurisation, etc...) que
+        des tâches de support technique (installation de matériels sur site, le dépannage client à distance
+        ou sur intervention, formation à l'utilisation d'applications et de matériel, etc...) je pense pouvoir être
+        un véritable couteau suisse pour votre entreprise.<br/>
+        Etant en effet doté d'un esprit analytique fort et étant force de proposition, je pense sincèrement être en mesure,
+        de développer, si nécessaire, des outils sur mesure pour améliorer la productivité de vos équipes et/ou automatiser
+        certaines tâches.<br/>
+        Enfin, je suis désigné par mes collègues comme convivial, pédagogue, et de bonne volonté, faisant de moi un atout
+        au sein d'une équipe et dans des missions mettant la communication au centre des priorités.`,
+        "secondParagraph": `Veuillez également noter que, conséquence de mes études universitaires et d'expériences
+        professionnelles dans le tourisme, je suis également doté de compétences linguistiques et administratives poussées, 
+        et maîtrise totalement la suite microsoft office. Je ne suis donc pas non plus fermé à un emploi dont la teneur serait
+        moins technique et plus administrative, et suis donc prêt à occuper le poste dont vous ressentez actuellement le besoin
+        le plus élevé.`
     },
     {
         "code": "6688",
@@ -46,7 +60,7 @@ export const motivationLetters: IMotivationLetter[] = [
         "company": "Evolia",
         "city": "Québec City, Quebec G2K 2H6",
         "address": "5600 Bd des Galeries bureau 535",
-        "job": "Développeur Web",
+        "job": "Développeur Full Stack - Devops",
         "picture": "evolia.png",
     },
     {
